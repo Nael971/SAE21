@@ -1,26 +1,24 @@
                                                                   Vendredi 8 avril
                                                                   
-Premier TP sur la SAE 21, en cherchant avec d'autre camarade j'ai trouver mon erreur qui m'empêcher d'ouvrir les différents fichiers named.conf. 
-Il me manquait une information dans ma commande, nano /etc/bind/named.conf. C'est alors, que j'ai compris que le fichier named.conf était un fichier 
-contenant trois fichier spécifique:
+Premier TP sur la SAE 21, en cherchant avec d'autres camarades, j'ai trouvé mon erreur qui m'empêchait d'ouvrir les différents fichiers named.conf.
+Il me manquait une information dans ma commande, nano /etc/bind/named.conf. C'est alors que j'ai compris que le fichier named.conf était un fichier.
+Contenant trois fichiers spécifiques:
 
-1)	Le premier sous fichier que j’ai configurer c’est named.conf.local pour y accéder, il nous suffit de nous mettre en super-utilisateur. 
+1) Le premier sous-fichier que j’ai configuré, c’est named.conf.local pour y accéder, il nous suffit de nous mettre en super-utilisateur.
 Et de taper la commande nano /etc/bind/named.conf.local.
-Ce sous-fichier nous permet de configurer notre zone ici lesgobelins.com. 
+Ce sous-fichier nous permet de configurer notre zone ici lesgobelins.com.
 De déterminer si notre serveur DNS est master (maître) ou slave (esclave). Ainsi que le fichier où est contenue la zone.
 
-2)	Par la suite le deuxième sous fichier que j’ai configuré c’est named.conf.options pour y accéder j’ai fait exactement pareil que pour named.conf.local. 
+2) Par la suite le deuxième sous-fichier que j’ai configuré, c’est named.conf.options pour y accéder, j’ai fait exactement pareil que pour named.conf.local.
 Mais j’ai fait nano /etc/bind/named.conf.options.
-Ce sous fichier, nous permet de voir par quels DNS notre DNS va rechercher les informations qu’il n’a pas dans son cache ici 
-nous avons tout désactiver car nous étions sur le réseau mondial et donc nos modifications sur le domaine privé de notre réseau ne fonctionner pas.
+Ce sous-fichier, nous permet de voir par quels DNS notre DNS va rechercher les informations qu’il n’a pas dans son cache ici.
+Nous avons tout désactivé, car nous étions sur le réseau mondial et donc nos modifications sur le domaine privé de notre réseau ne fonctionner pas.
 
-3)	Pour finir, le dernier sous-fichier que j’ai configuré c’est named.conf.default-zones. 
-Je fais pareillement pour y accéder comme pour les sous fichiers précédents. Je fais juste nano /etc/bind/named.conf.default-zones.
-C’est ici, que l’on trouve la configuration par défaut des zones que doit connaitre le serveur. Nous n’avons pas besoin de le modifier.
+3) Pour finir, le dernier sous-fichier que j’ai configuré, c’est named.conf.default-zones.
+Je fais pareillement pour y accéder comme pour les sous-fichiers précédents. Je fais juste nano /etc/bind/named.conf.default-zones.
+C’est ici, que l’on trouve la configuration par défaut des zones que doit connaître le serveur. Nous n’avons pas besoin de le modifier.
 
 Toutes, les captures d'écran seront dans le fichier Jour 5.md.
-
-
 
 
 
