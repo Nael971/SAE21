@@ -21,3 +21,6 @@ Cela permet de dire que le nom symbolique www.LesGobelins.com. Se retrouve en 10
 Cela nous permet de taper juste LesGobelins.com. Pour tomber sur le site www.LesGobelins.com. Qui est toujours rattacher à l’adresse 10.214.5. 
 
 
+
+![etc bind db LesGobelins com](https://user-images.githubusercontent.com/97044657/165733579-75c3b281-a704-462e-8d6a-29812d17ed02.png)
+
