@@ -1,5 +1,9 @@
                                                             Vendredi 22 avril
-                                                            
+  
+  
+  
+  ![LesGobelins conf](https://user-images.githubusercontent.com/97044657/165785861-54daade7-78c9-47fd-aaba-91020139ae88.png)
+  
 Lors de ce dernier TP, j'utilise la commande a2ensite LesGobelins.conf car a2ensite est une commande qui permet
 de mettre notre site dans /etc/apache2/sites-enables qui sont les sites autorisés à l’affichage.
 Une fois activé, il suffit de reload apache2.
@@ -9,9 +13,7 @@ Le Hosts est très important car c’est lui qui est interroger en premier avec 
 Il convertit les noms d’hôtes en adresses IP numériques.
 
 
-![LesGobelins conf](https://user-images.githubusercontent.com/97044657/165785861-54daade7-78c9-47fd-aaba-91020139ae88.png)
-
-
+![etc hosts](https://user-images.githubusercontent.com/97044657/165786699-f5f5c20b-a1d2-4721-a729-45c993566776.png)
 
 
 Ensuite, il faut changer de nameserver car je suis dans celui de l’iut en 10.255.255.200
