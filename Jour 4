@@ -1,8 +1,14 @@
                                                                  Lundi 4 avril
                                                                  
 Monsieur Comby, nous a partagé un document nous permettant de mieux comprendre comment configurer le serveur DNS. Lors de cette heure,
-j'étudie le document pour essayer de comprendre comment il fonctionne. J'ai compris lors de ce cours que nous avons besoin de bind9 u logiciel 
+j'étudie le document pour essayer de comprendre comment il fonctionne. J'ai compris lors de ce cours que nous avons besoin de bind9 un logiciel 
 le plus répandue pour les serveurs DNS et comment l'installer a l'aide de la commande apt install bind9 dnsutils.
+De plus, il y a trois commande importante pour la configuration du dns:
+
+1)	La commande systemctl start/stop bind9 qui permet de démarrer ou d’arrêter le service.
+2)	La commande systemctl status bind9 qui permet de voir l’état du service pratique pour savoir si nous avions oublié de démarrer le service par exemple.
+3)	La commande systemctl restart bind9 permet de redémarrer le service obligatoire lorsque l’on effectue des modifications 
+si nous voulons qu’ils soient bien pris en compte.
 
 Ensuite, il y a les fichiers avec named.conf, j'essaie de taper sur mon terminal en super-utilisateur nano /etc/named.conf sans résultat 
 J'essaie alors /etc/named.conf.local même résultat. Alors, je vais regarder ce qui ne vas pas. MMais je ne trouve pas ce jour la.
