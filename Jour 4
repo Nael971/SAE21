@@ -1,3 +1,8 @@
                                                                  Lundi 4 avril
                                                                  
-Monsieur Comby, 
+Monsieur Comby, nous a partagé un document nous permettant de mieux comprendre comment configurer le serveur DNS. Lors de cette heure,
+j'étudie le document pour essayer de comprendre comment il fonctionne. J'ai compris lors de ce cours que nous avons besoin de bind9 u logiciel 
+le plus répandue pour les serveurs DNS et comment l'installer a l'aide de la commande apt install bind9 dnsutils.
+
+Ensuite, il y a les fichiers avec named.conf, j'essaie de taper sur mon terminal en super-utilisateur nano /etc/named.conf sans résultat 
+J'essaie alors /etc/named.conf.local même résultat. Alors, je vais regarder ce qui ne vas pas. MMais je ne trouve pas ce jour la.
