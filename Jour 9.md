@@ -9,6 +9,9 @@ Le Hosts est très important car c’est lui qui est interroger en premier avec 
 Il convertit les noms d’hôtes en adresses IP numériques.
 
 
+![LesGobelins conf](https://user-images.githubusercontent.com/97044657/165785861-54daade7-78c9-47fd-aaba-91020139ae88.png)
+
+
 
 
 Ensuite, il faut changer de nameserver car je suis dans celui de l’iut en 10.255.255.200
