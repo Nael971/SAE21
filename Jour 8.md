@@ -8,3 +8,5 @@
 Je fais un ls je peux voir 000-default.conf qui est une configuration par défaut.
 Je copie à l’aide de cp le fichier dans Les Gobelins.conf. Ensuite, il me suffit de configurer le serveurname et c’est bon.
 
+
+![Commande de l'installation du site html](https://user-images.githubusercontent.com/97044657/165779293-2607d6c9-ae2f-45ee-bf31-647e4f42b4f4.png)
