@@ -11,3 +11,7 @@ Test du site Web avec 10.214.5.1
 
 
 Test du site web avec le rebouclage
+
+
+
+![test site web avec 127 0 0 1](https://user-images.githubusercontent.com/97044657/165759152-d0f6208a-aed0-4644-a15f-85e95d5a0185.png)
