@@ -1,9 +1,9 @@
                                                                   Jeudi 21 avril
                                                                   
- Pour les deux TD, , je vais dans le dossier /var/www/html pour cela j'utilise la commande cd /var/www/html.
- Et on regarde que j'ai bien le fichier index.html déplacer la dernière fois.
- 
- A partir de là je me déplace dans le dossier /etc/apache2/sites-available.
+ Pour les deux TD, je vais dans le dossier /var/www/html pour cela j'utilise la commande cd /var/www/html.
+Et on regarde que j'ai bien le fichier index.html déplacer la dernière fois.
+
+À partir de là, je me déplace dans le dossier /etc/apache2/sites-available.
 
 Je fais un ls je peux voir 000-default.conf qui est une configuration par défaut.
 Je copie à l’aide de cp le fichier dans Les Gobelins.conf. Ensuite, il me suffit de configurer le serveurname et c’est bon.
