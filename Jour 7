@@ -1,15 +1,15 @@
                                                                 Vendredi 15 avril
                                                       
-Pour le cours non encadrer, nous avons décider de créer une page html. Par la suite,
-j'ai regarder comment fonction apache2 et à quoi il sert. 
-Le serveur HTTTP ou Daemon est le logiciel qui prend en charge les requêtes client/serveur du protocole http. C’est le cas d’Apache.
+Pour le cours non encadré, nous avons décidé de créer une page html. Par la suite,
+J'ai regardé comment fonction apache2 et à quoi il sert.
+Le serveur HTTP ou Daemon est le logiciel qui prend en charge les requêtes client/serveur du protocole http. C’est le cas d’Apache.
 
-Ensuite faisant l’installation et la configuration d’un serveur Web. 
-Pour se faire nous devons faire apt-get remove apache2 afin d’enlever les configurations déjà existantes.
+Ensuite faisant l’installation et la configuration d’un serveur Web.
+Pour ce faire, nous devons faire apt-get remove apache2 afin d’enlever les configurations déjà existantes.
 Ensuite, nous réinstallons apache2 avec la commande sudo apt insall apache2.
 
 Par la suite, pendant le TP, je déplace le fichier html LesGobelins en faisant mv Les Gobelins.html /var/www/html/,
-puis mv /var/www/html/LesGobelins.html /var/www/html/index.html. Je refait la configuration des sous fichiers named.conf.
+Puis mv /var/www/html/LesGobelins.html /var/www/html/index.html. Je refais la configuration des sous-fichiers named.conf.
 J'effectue les premiers tests avec l'adresse ip de ma machine et celle du rebouclage.
 
-Pour les captures d'écrans c'est dans Jour 7.md
+Pour les captures d'écrans, c'est dans Jour 7.md
